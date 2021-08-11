@@ -1,4 +1,192 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+	background-color: hsl(210, 46%, 95%);
+}
+
+.main-grid {
+	font-size: 2vw;
+}
+
+h2 {
+	color: hsl(210, 46%, 95%);
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 6%;
+	font-size: 4.2vh;
+	font-weight: 600;
+}
+
+h3 {
+	padding-left: 5%;
+	padding-top: 1%;
+}
+
+.first {
+	color: rgb(236, 242, 248);
+	font-weight: 600;
+	font-size: 2.2vh;
+
+}
+
+.second {
+	color: rgba(236, 242, 248, 50%);
+	font-weight: 500;
+	font-size: 2.2vh;
+}
+
+.sub-paras {
+	margin: 0 auto;
+	width: 85%;
+	font-weight: 200;
+	color: rgba(207, 207, 207, 70%);
+	font-size: 2.5vh;
+	padding-top: 6%;
+	padding-bottom: 8%;
+}
+
+.flex-container {
+	display: flex;
+	padding-left: 6%;
+	padding-top: 6%;
+}
+
+.first-person {
+	margin: 0 auto;
+	width: 85%;
+	background-color: hsl(263, 55%, 52%);
+	border-radius: 8px;
+	margin-top: 15%;
+}
+
+.profile-image1 {
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #9682BD;
+}
+
+.h2-tag {
+	position: relative;
+}
+
+.background-image {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 13%;
+	padding-top: 15%;
+	height: 18%;
+	max-width: 23%;
+}
+
+.second-person {
+	margin: 0 auto;
+	width: 85%;
+	background-color: hsl(217, 19%, 35%);
+	border-radius: 8px;
+	margin-top: 6%;
+}
+
+.profile-image2 {
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: hsl(217, 19%, 35%);
+}
+
+.third-person {
+	margin: 0 auto;
+	width: 85%;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 8px;
+	margin-top: 6%;
+
+}
+
+.white-bg {
+	color: rgba(51, 51, 51,0.8);
+	font-weight: 600;
+}
+
+.profile-image3 {
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: hsl(0, 0%, 100%);
+}
+
+.first-white {
+	font-weight: 500;
+	font-size: 2.2vh;
+}
+
+.second-white {
+	color: hsl(0, 0%, 81%);
+	font-weight: 500;
+	font-size: 2.2vh;
+}
+
+.sub-paras-white {
+	margin: 0 auto;
+	width: 85%;
+	font-weight: 200;
+	color: rgba(72, 85, 106,0.7);
+	font-size: 2.5vh;
+	padding-top: 6%;
+	padding-bottom: 8%;
+}
+
+.fourth-person {
+	margin: 0 auto;
+	width: 85%;
+	background-color: hsl(219, 29%, 14%);
+	border-radius: 8px;
+	margin-top: 6%;
+}
+
+.profile-image4 {
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: hsl(263, 55%, 52%);
+}
+
+.fifth-person {
+	margin: 0 auto;
+	width: 85%;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 8px;
+	margin-top: 6%;
+	margin-bottom: 14%;
+	box-shadow: 0 20px 32px rgba(0,0,0,0.11);
+}
+
+.profile-image5 {
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: hsl(0, 0%, 100%);
+}
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(263, 55%, 52%); 
 }
