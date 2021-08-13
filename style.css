@@ -6,6 +6,10 @@
 
 body {
 	background-color: hsl(210, 46%, 95%);
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-grid {
@@ -181,6 +185,91 @@ h3 {
 	border-style: solid;
 	border-width: 3px;
 	border-color: hsl(0, 0%, 100%);
+}
+
+@media only screen and (min-width: 1440px) {
+	.all-persons {
+		display: grid;
+		grid-template-columns: 4;
+		grid-template-rows: 2;
+		grid-template-areas: "first first second fifth"
+		"third fourth fourth fifth";
+		grid-column-gap: 30px;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.first, .second {
+		font-size: 1rem;
+	}
+
+	h2 {
+		font-size: 1.1rem;
+	}
+
+	.sub-paras {
+		opacity: 70%;
+    font-size: 1.1vw;
+	}
+
+	.background-image {
+		top: -12.3%;
+		right: 46%;
+	}
+
+	.first-white, .second-white {
+		font-size: 1.2rem;
+	}
+	.white-bg {
+		font-size: 1.23rem;
+	}
+
+	.sub-paras-white {
+		font-size: 1.6vw;
+	}
+
+	.first-person {
+		grid-area: first;
+		width: 100%;
+		height: 50%;
+		margin: 16% auto;
+		padding-bottom: 11%;
+
+	}
+
+	.second-person {
+		grid-area: second;
+		width: 100%;
+		height: 50%;
+		margin: 30% auto;
+		padding-top: 20%;
+	}
+
+	.third-person {
+		grid-area: third;
+		box-shadow: 0 20px 32px rgba(0,0,0,0.11);
+		width: 100%;
+		height: 80%;
+		margin: -60% auto;
+		padding-bottom: 30%;
+		padding-top: 10%;
+	}
+
+	.fourth-person {
+		grid-area: fourth;
+		box-shadow: 0 20px 32px rgba(0,0,0,0.11);
+		width: 100%;
+		height: 70%;
+		margin: -36% auto;
+		padding-bottom: 30%;
+	}
+
+	.fifth-person {
+		grid-area: fifth;
+		width: 100%;
+		margin: 26% auto;	
+		
+	}
 }
 
 .attribution { 
